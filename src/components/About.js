@@ -6,11 +6,13 @@ import React from 'react';
 import {Tilt} from 'react-tilt';
 import  Image  from 'next/image';
 import SectionWrapper from './../hoc/SectionWraper';
+import CheckCircleOutlineIcon from '@mui/icons-material/CheckCircleOutline';
 
 
 
 
-const ServiceCard = ({title,index,icon}) => {
+const ServiceCard = ({title,index,icon,right}) => {
+    
     return (
         <Tilt className=" 550px:w-[250px] w-full">
             <motion.div
@@ -25,8 +27,15 @@ const ServiceCard = ({title,index,icon}) => {
                         scale: 1,
                         speed: 450
                     }}
-                    className="bg-[#151030]rounded-[20px] py-5 px-12 min-h-[280px] flex justify-evenly items-center flex-col">
+                    className="bg-[#151030]rounded-[20px] py-5 px-12 min-h-[280px] flex justify-evenly items-center flex-col relative">
                         <Image src={icon} height={500} width={500} alt={title} className='w-30 h-30 object-contain rounded-sm'/>
+                        <div className='absolute top-3 right-3 text-[#00FF00]'>
+                           {
+                            right==="yes" &&(
+                                <CheckCircleOutlineIcon  className='text-[40px]'/>
+                            )
+                           }
+                        </div>
 
                         <h3 className='text-white text-[20px] font-bold text-center'>{title}</h3>
                     </div>

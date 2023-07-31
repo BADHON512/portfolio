@@ -22,7 +22,9 @@ const Navbar = () => {
 
                 <div className=" text-white flex items-center">
                     <Image src="/assets/B.jpg" height={30} width={30} alt='image not found' className='rounded-full  object-fill' />
-                    <h1 className='ml-3 '>Badhon | Web developer</h1>
+                    <h1 className='ml-3 cursor-pointer'>
+                    
+                    <Link href="/"> Badhon | Web developer</Link></h1>
                 </div>
 
                 <div className="flex items-center justify-between text-white">

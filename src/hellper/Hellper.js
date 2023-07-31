@@ -100,18 +100,22 @@ const services = [
   {
     title: "Web Developer",
     icon: "https://res.cloudinary.com/djo5r2a5z/image/upload/v1690368094/pf/photo-1517694712202-14dd9538aa97_zto5s5.avif",
+    right:"yes"
   },
   {
     title: "React Native Developer",
     icon: mobile,
+    right:"no"
   },
   {
     title: "Backend Developer",
     icon: "https://res.cloudinary.com/djo5r2a5z/image/upload/v1690368596/How_to_Become_a_Back_End_Developer_zhsxbk.avif",
+    right:"yes"
   },
   {
     title: "Content Creator",
     icon: creator,
+    right:"no"
   },
 ];
 
@@ -232,7 +236,7 @@ const testimonials = [
     name: "Sara Lee",
     designation: "CFO",
     company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
+    image: "https://res.cloudinary.com/djo5r2a5z/image/upload/v1690736118/pf/315100994_10209906491094779_654405519663392346_n_xw8zyc.jpg",
   },
   {
     testimonial:
@@ -240,7 +244,7 @@ const testimonials = [
     name: "Chris Brown",
     designation: "COO",
     company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
+    image: "https://res.cloudinary.com/djo5r2a5z/image/upload/v1690736701/pf/362250096_646584860746302_8393201739586327565_n_cy1bbd.jpg",
   },
   {
     testimonial:

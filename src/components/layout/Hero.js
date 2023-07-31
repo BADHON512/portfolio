@@ -23,7 +23,7 @@ const Hero = () => {
            <div 
              
            className="">
-             <motion.h1 {...option} className='font-semibold  text-[30px]'> Hi iam <span className='text-orange-600 '>Badhon</span> full stack <br /> web developer frond end  focus </motion.h1>
+             <motion.h1 {...option} className='font-semibold  text-[30px]'> Hi iam <span className='text-orange-600 '>Badhon</span> full stack <br /> web developer front end focus </motion.h1>
            </div>
 
            <motion.div 

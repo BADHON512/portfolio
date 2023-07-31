@@ -8,8 +8,8 @@ const MERN = () => {
     return (
         <div className='w-full min-h-[100vh]'>
 
-            <div className="w-[70%] min-h-[70vh] mx-auto bg-[#06071d] py-5 800px:py-10 flex justify-center items-center
-            ">
+            <div className="w-[75%] min-h-[70vh] mx-auto bg-[#06071d] py-5 800px:py-10 flex justify-center items-center
+            px-2 ">
                 <div className="flex justify-center items-center gap-4 800px:gap-7 flex-wrap h-full  ">
 
                     {
