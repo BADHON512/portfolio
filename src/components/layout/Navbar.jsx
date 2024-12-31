@@ -17,7 +17,7 @@ const Navbar = () => {
 
 
     return (
-        <nav className=' w-full h-[10vh] bg-black p-3 sticky top-0 z-50 '  >
+        <nav className=' w-full h-[10vh] bg-black p-3 sticky top-0 z-50  md:px-10 px-7'  >
             <div className="flex justify-between items-center font-semibold ">
 
                 <div className=" text-white flex items-center">
@@ -69,7 +69,7 @@ const Navbar = () => {
                    {
                         navLinks?.map((value, index) => (
 
-                            <Link className={`${active===value.id? "text-[#00ff00] border-b-4 border-b-white text-center":"text-white"} mr-1 p-1  hover:text-[#00ff00] `} onClick={()=>setActive(value.id)} key={index} href={`/${value.title}`}>{value.title} </Link>
+                            <Link className={`${active===value.id? "text-[#00ff00] border-b-4 border-b-white text-center":"text-white"} mr-1 p-1  hover:text-[#00ff00] `} onClick={()=>setActive(value.id)} key={index} href={`#${value.title}`}>{value.title} </Link>
 
                         ))
                     }
